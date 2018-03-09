@@ -2,4 +2,4 @@ version: '1.0'
 maincommand:
   permission: grade.use
   permission_message: &cCe serveur ne t'autorise pas à éxécuter cette commande.
-  prefix: &7[&bGrades&b&lSk&r&7]
+  prefix: '&7[&bGrades&b&lSk&r&7]&3 »&6'
