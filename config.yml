@@ -1,5 +1,5 @@
 version: '1.0'
 maincommand:
   permission: grade.use
-  permission message: &cCe serveur ne t'autorise pas à éxécuter cette commande.
+  permission_message: &cCe serveur ne t'autorise pas à éxécuter cette commande.
   prefix: &7[&bGrades&b&lSk&r&7]
