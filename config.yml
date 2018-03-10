@@ -4,11 +4,10 @@ maincommand:
   permission_message: '§cCe serveur ne t''autorise pas à éxécuter cette commande.' #Message renvoyé si le joueur n'as pas la permission.
   prefix: '&7[&bGrades&b&lSk&r&7]&3 »&6' #Prefix du plugin.
 grades:
-  playerlist: true #Mets le préfix du joueur dans le tab
-  chat: true #Mets le préfix du joueur dans le chat
-  player_name: false #Nécéssite NTE. si activé, Permet de mettre le grade du joueur au dessus de sa tête
+  playerlist: true #Mets le préfix du joueur dans le tab <true/false>
+  chat: true #Mets le préfix du joueur dans le chat <true/false>
+  player_name: false #Nécéssite NTE. si activé, Permet de mettre le grade du joueur au dessus de sa tête <true/false> [~ SOON]
 plugin:
   versions: 'Skript2.2-dev34, skript-yaml 1.1.5 et SkUtilites 0.9.0' #Versions des addons nécessaire, Confirmé sans bugs. NE PAS MODIFIER
-  Use_NTE: false #Ajout de la comptabilité avec NameTagEdit. Sert à mettre le grade du joueur au dessus de sa tête.
-  name_NTE: NameTagEdit.jar #Nom du plugins NTE.
-  
+  Use_NTE: false #Ajout de la comptabilité avec NameTagEdit. Sert à mettre le grade du joueur au dessus de sa tête. <true/false> [~ SOON]
+  name_NTE: NameTagEdit.jar #Nom du plugins NTE. [~ SOON]
