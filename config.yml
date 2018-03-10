@@ -3,6 +3,9 @@ maincommand:
   permission: grade.use #Permission pour la commande /grade
   permission_message: '§cCe serveur ne t''autorise pas à éxécuter cette commande.' #Message renvoyé si le joueur n'as pas la permission.
   prefix: '&7[&bGrades&b&lSk&r&7]&3 »&6' #Prefix du plugin.
+commandliste:
+  permission: grade.seeliste #Permission pour la commande /list (liste les grades/joueurs d'un grade
+  permission_message: '§cCe serveur ne t''autorise pas à éxécuter cette commande.' #Message renvoyé si le joueur n'as pas la permission.
 grades:
   playerlist: true #Mets le préfix du joueur dans le tab <true/false>
   chat: true #Mets le préfix du joueur dans le chat <true/false>
