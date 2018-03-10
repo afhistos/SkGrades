@@ -1,8 +1,8 @@
-version: '1.0'
+version: '1.0' #NE PAS MODIFIER
 maincommand:
-  permission: grade.use
-  permission_message: '§cCe serveur ne t''autorise pas à éxécuter cette commande.'
-  prefix: '&7[&bGrades&b&lSk&r&7]&3 »&6'
+  permission: grade.use #Permission pour la commande /grade
+  permission_message: '§cCe serveur ne t''autorise pas à éxécuter cette commande.' #Message renvoyé si le joueur n'as pas la permission.
+  prefix: '&7[&bGrades&b&lSk&r&7]&3 »&6' #Prefix du plugin.
 grades:
   playerlist: true #Mets le préfix du joueur dans le tab
   chat: true #Mets le préfix du joueur dans le chat
