@@ -7,7 +7,7 @@ grades:
   playerlist: true #Mets le préfix du joueur dans le tab <true/false>
   chat: true #Mets le préfix du joueur dans le chat <true/false>
   player_name: false #Nécéssite NTE. si activé, Permet de mettre le grade du joueur au dessus de sa tête <true/false> [~ SOON]
-  default_prefix: &e[Nouveau] #Préfix par défaut quand un nouveau joueur rejoint le serveur, nécéssite SkRayFall.
+  default_prefix: '&e[Nouveau]' #Préfix par défaut quand un nouveau joueur rejoint le serveur, nécéssite SkRayFall.
 plugin:
   versions: 'Skript2.2-dev34, skript-yaml 1.1.5, SkRayFall 1.9.10 et SkUtilites 0.9.0' #Versions des addons nécessaire, Confirmé sans bugs. NE PAS MODIFIER
   Use_NTE: false #Ajout de la comptabilité avec NameTagEdit. Sert à mettre le grade du joueur au dessus de sa tête. <true/false> [~ SOON]
